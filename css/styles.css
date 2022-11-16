@@ -1,0 +1,182 @@
+* {
+  /* zerar as margens externas dos elementos */
+  margin: 0;
+  /* zerar as mensagens internas dos elementos */
+  padding: 0;
+  /* ajuste das caixas(box) dos elementos */
+  box-sizing: border-box;
+}
+/*header {
+  height: 299px; /*altura da caixa*/
+  /*adicionar uma imagem ao fundo */
+ /* background-image: url("../img/carrinho_Logo.png.jpg");
+  /* ajustar a largura da imagem para 100%*/
+ /* background-size: 100%;
+  /* ajustar a posição em x e y da imagem de fundo */
+  /*background-position: 0 -120px;
+  /* animação no fundo */
+  /*transition: ease 2s;*/
+ /* padding-top: 90px;*/
+
+h1 {
+  text-align: center;
+  font-family: verdana;
+  color: rgb(245, 236, 230);
+  /* aplicar sombra no texto*/
+  text-shadow: 10px 10px 5px black;
+}
+
+nav {
+  background-color: #00796b;
+  text-align: center;
+}
+
+nav ul li {
+  /* dispor itens da lista(li) em linha */
+  display: inline-block;
+  /* aumentar a distância entre os elementos*/
+  padding: 10px;
+  transition: ease 1s;
+}
+/* ao passar o mouse sobre o link o fundo link deve 
+  alter suar cor*/
+
+nav ul li:hover {
+  background-color: slategray;
+}
+
+nav ul li a {
+  font-family: verdana;
+  font-size: 10pt;
+  color: white;
+  /* retirar o underliner do linnk */
+  text-decoration: none; /*nenhum*/
+}
+footer {
+  height: 300px; /*altura em 300px*/
+  background-color: #00796b ;
+  color: white;
+  font-family: arial;
+  padding-top: 40px;
+  /* dispor em form flexivel*/
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+footer div {
+  width: 20%;
+  margin: 20px;
+}
+#redes ul li {
+  display: inline;
+  margin-left: 20px;
+}
+#redes ul li a img {
+  width: 40px;
+  height: 40px;
+}
+/*--------------Inicio do css home ---------------*/
+h2 {
+  font-family: Arial;
+  font-size:90pt;
+  margin: 60px;
+  /*borda na parte inferior do h2*/
+  border-bottom: 1px solid rgb(226, 139, 139);
+}
+#home {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: verdana;
+  font-size: 14pt;
+  line-height: 20pt; /* espaçamento entre linhas*/
+  text-align: justify;
+}
+#banner{ 
+  margin: 0px;
+  width: 80vw;
+  right: 50px;
+  height: auto positionabsolute;
+}
+#imgHome {
+  text-align: center;
+}
+#imgHome img {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  border-radius: 100px; 
+  
+  transition: ease 0.5;
+  /*mudar o ponteiro do mouse para uma mão*/
+  cursor: pointer;
+}
+#imgHome img:hover {
+  transform: scale(1.2);
+  opacity: 1;
+}
+
+
+#imgHome p {
+  width: 70%;
+  font-family: arial;
+  font-size: 12pt;
+  line-height: 30pt;
+  text-align: justify;
+  margin-left: auto;
+  margin-right: auto;
+ margin: 20px;
+ width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: verdana;
+  font-size: 12pt;
+  line-height: 20pt; /* espaçamento entre linhas*/
+  text-align: justify;
+}
+#localizacao {
+  width: 100%;
+  height: auto;
+  
+}
+#mapa{
+   width: 100%;;
+}
+/* ========================   mapa   ======================== */
+h2{
+  font-size: 50px;
+  font-family: arial;  
+}
+
+
+main form {
+  width: 40%;
+  padding: 10px;
+  background-color: #1de9b6;
+  margin-left: auto;
+  margin-right: auto;
+}
+main form input[type="text"],
+main form input[type="E-mail"],
+main form input[type="tel"],
+main form select,
+main form textarea {
+  background-color: white;
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: 0px;
+  border-bottom: 1px solid silver;
+  border-radius: 5px;
+  display: block;
+  font-weight: bold;
+}
+/* ===================== Youtube =================================*/
+iframe {
+    width: 600px;
+    right: 1000px;
+    padding-top: 200px;
+   
+  }
+  
